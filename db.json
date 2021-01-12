@@ -1,0 +1,60 @@
+{
+  "leiloes": [
+    {
+      "id": 1,
+      "produto": "Video Game",
+      "descricao": "Um video game bem bacana, com vários jogos exclusivos.",
+      "lanceInicial": 1000
+    },
+    {
+      "id": 2,
+      "produto": "Notebook",
+      "descricao": "Completinho, quase novo. A diversão é garantida!",
+      "lanceInicial": 500
+    },
+    {
+      "id": 3,
+      "produto": "Livro da Casa do Código",
+      "descricao": "Um livro super completo, sobre um assunto incrível.",
+      "lanceInicial": 500
+    },
+    {
+      "produto": "Ebook da Casa do Código",
+      "descricao": "Um livro com um conteúdo muito interessante sobre VueJS",
+      "lanceInicial": "500",
+      "id": 4
+    },
+    {
+      "produto": "Boina Italiana",
+      "descricao": "Um belo chapéu clássico",
+      "lanceInicial": "3",
+      "id": 5
+    }
+  ],
+  "lances": [
+    {
+      "id": 1,
+      "valor": 1001,
+      "data": "2020-06-13T18:04:26.826Z",
+      "leilao_id": 1
+    },
+    {
+      "valor": 1005,
+      "data": "2020-06-13T18:04:26.826Z",
+      "leilao_id": 1,
+      "id": 2
+    },
+    {
+      "valor": 1099,
+      "data": "2020-06-13T18:19:44.871Z",
+      "leilao_id": 1,
+      "id": 3
+    },
+    {
+      "valor": 500,
+      "data": "2020-07-24T14:40:33.951Z",
+      "leilao_id": 4,
+      "id": 4
+    }
+  ]
+}
