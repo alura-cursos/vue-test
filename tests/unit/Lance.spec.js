@@ -67,7 +67,7 @@ describe('Um Lance com valor mínimo', () => {
     await wrapper.vm.$nextTick()
     const lancesEmitidos = wrapper.emitted('novo-lance')
     expect(lancesEmitidos).toBeUndefined()
-    const msgErro = wrapper.find('p.alert').element
-    expect(msgErro).toBeTruthy()
+    const msgErro = wrapper.find('p.alert').element.textContent
+    expect(msgErro).toContain('O valor mínimo para o lance é de R$ 300')
   })
 })
